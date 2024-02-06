@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.fondo {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('imagenes/fondo.jpg');
+    background-repeat: repeat;
+}
+
+.barraDeBotones {
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ajusta según sea necesario para que esté por encima de otros elementos */
+    width: 100%;
+  }
+
+.bordes {
+    border-radius: 5px;
+}
+
+.aHover{
+    border-radius: 10px;
+}
+
+.amarilloBackOpaco{
+    background-color: rgba(249, 249, 158, 0.7);
+}
+
+.amarilloBack{
+    background-color: #ffff80;
+}
+
+.azulBackOpaco{
+    background-color: rgba(102, 102, 255, 0.7);
+}
+
+.azulBack{
+    background-color: #6666ff;
+    
+}
+
+.amarilloText{
+    color: #ffff80;
+}
+
+.azulText{
+    color: #6666ff;
+}
+
+.aHover:hover{
+    background-color:#ffff80;
+    color: #6666ff;
+    border-radius: 10px;
+}
+
+.whatsappButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    max-height: 80px;
+  }
