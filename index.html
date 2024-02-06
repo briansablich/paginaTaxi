@@ -1,291 +1,346 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nombre+de+la+Fuente">
-        <link rel="stylesheet" href="estilos.css">
-        <title>Título</title>
-        
-    </head>
-    <body class="fondo">
-        <div class="container-fluid">
 
-          <!-------------------------------BARRA BOTONERA---------------------------------------->
-            <div class="row barraDeBotones">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nombre+de+la+Fuente">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Título</title>
 
-                <div class="col-2">
-                </div>
+</head>
 
-                <div class="col-8">
-                  <nav class="navbar navbar-expand-lg azulBackOpaco bordes pe-2 ">
-                    <div class="me-auto ms-2">
-                      <a class="navbar-brand" href="#Inicio">
-                        <img style="max-height: 2em;" src="https://static.vecteezy.com/system/resources/thumbnails/016/617/627/small_2x/the-taxi-car-is-yellow-free-png.png" alt="Logo">
-                      </a>
-                    </div>
-                        <div class="navbar-nav ms-auto">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <a class="nav-link m-1 px-1 aHover amarilloText" href="#Inicio">INICIO</a>
-                                <a class="nav-link m-1 px-1 aHover amarilloText" href="#Servicios">SERVICIOS</a>
-                                <a class="nav-link m-1 px-1 aHover amarilloText" href="#Flota">FLOTA</a>
-                                <a class="nav-link m-1 px-1 aHover amarilloText" href="#Contacto">CONTACTO</a>
-                                <a class="nav-link m-1 px-1 aHover amarilloText" href="#Nosotros">NOSOTROS</a>
-                            </div>
-                      </div>
-                    </nav>
-                </div><!-- hasta aca COL-8 NAV -->
+<body class="fondo">
+  <div class="container-fluid">
 
+    <!-------------------------------BARRA BOTONERA---------------------------------------->
+    <div class="row barraDeBotones">
 
-            </div>
-            <!-------------------------------FIN BARRA BOTONERA---------------------------------------->
+      <div class="col-2 d-none d-lg-flex">
+      </div>
 
-            <!-------------------------------SECCION INICIO---------------------------------------->
-            <div class="row" style="padding-top: 64px;">
+      <div class="col-lg-8 col">
+        <nav class="navbar navbar-expand-lg azulBackOpaco bordes pe-2 ">
+          <div class="me-auto ms-2">
+            <a class="navbar-brand" href="#Inicio">
+              <img style="max-height: 2em;"
+                src="https://static.vecteezy.com/system/resources/thumbnails/016/617/627/small_2x/the-taxi-car-is-yellow-free-png.png"
+                alt="Logo">
+            </a>
+          </div>
+          <div class="navbar-nav ms-auto">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <a class="nav-link m-1 px-1 aHover amarilloText" href="#Inicio">INICIO</a>
+              <a class="nav-link m-1 px-1 aHover amarilloText" href="#Servicios">SERVICIOS</a>
+              <a class="nav-link m-1 px-1 aHover amarilloText" href="#Flota">FLOTA</a>
+              <a class="nav-link m-1 px-1 aHover amarilloText" href="#Contacto">CONTACTO</a>
+              <a class="nav-link m-1 px-1 aHover amarilloText" href="#Nosotros">NOSOTROS</a>
 
-                <div class="col-2">
-                </div>
-
-                <div class="col-8" id="Inicio">
-                    <div id="carouselInicio" class="carousel slide my-1">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner bordes">
-                          <div class="carousel-item active">
-                            <img src="https://static3.depositphotos.com/1006458/211/i/450/depositphotos_2111331-stock-photo-fast-taxi.jpg" class="d-block w-100" alt="TaxiCarousel1">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>First slide label</h5>
-                              <p>Probando commit.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.rosarionoticias.gob.ar/uploads/fotos/p1910elm9i14cdnj1kl1b6b1u364.jpg" class="d-block w-100" alt="TaxiCarousel2">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Second slide label</h5>
-                              <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://media.tycsports.com/files/2021/05/07/278736/futbol-y-taxis_862x485_wmk.jpg" class="d-block w-100" alt="TaxiCarousel3">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Third slide label</h5>
-                              <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-
-                </div><!-- hasta aca COL-8 INICIO -->
-                
-            </div>
-            <!-------------------------------FIN SECCION INICIO---------------------------------------->
-            
-            <!-------------------------------SECCION SERVICIOS---------------------------------------->
-            <div class="row">
-                <div class="col-2">
-                </div>
-
-                <div class="col-8" id="Servicios">
-                  <div class="azulBack amarilloText bordes p-4">
-                    <div class="p-4">
-                      <h2 style="text-align: center;">SERVICIOS</h2>
-                    </div>
-                      <div class="p-4">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quas fugit animi optio? Minus quia asperiores laborum quaerat? Sit sapiente vero ab deserunt optio! Consectetur aliquid blanditiis ipsa beatae perferendis.</p>
-                      </div>
-                  </div>
-                    
-                </div><!-- hasta aca COL-8 SERVICIOS -->
-            </div>
-            <!-------------------------------FIN SECCION SERVICIOS---------------------------------------->
-
-            <!-------------------------------SECCION FLOTA---------------------------------------->
-            <div class="row">
-
-              <div class="col-2">
+              <div class="btn-group d-flex d-lg-none" role="group">
+                <button class="nav-link m-1 px-1 amarilloText aHover dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  LENGUAGE
+                </button>
+                <ul class="dropdown-menu azulBackOpaco">
+                  <li><a class="dropdown-item amarilloText aHover" href="#">Español</a></li>
+                  <li><a class="dropdown-item amarilloText aHover" href="#">English</a></li>
+                  <li><a class="dropdown-item amarilloText aHover" href="#">Português</a></li>
+                </ul>
               </div>
 
-              <div class="col-8 my-1" id="Flota">
-
-                <div class="p-4 bordes" style="background: url(imagenes/parandoTaxi.png) center/cover;">
-
-                    <div class="m-4 p-2 azulText">
-                      <h2 style="text-align: center;">FLOTA</h2>
-                    </div>
-
-                    <div class="d-block">
-
-                      <div class="d-flex m-2 p-2" style="justify-content: center; align-items: center;">
-
-                        <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
-                          <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">EJECUTIVOS</h5>
-                          </div>
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes" alt="Taxi">
-                        </div>
-
-                        <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
-                          <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">EJECUTIVOS</h5>
-                          </div>
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes" alt="Taxi">
-                        </div>
-
-                        <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
-                          <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">EJECUTIVOS</h5>
-                          </div>
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes" alt="Taxi">
-                        </div>
-                      </div><!-- hasta aca 1RA FILA CARDS FLOTA-->
-
-                      <div class="d-flex m-2 p-2" style="justify-content: center; align-items: center;">
-
-                        <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
-                          <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">EJECUTIVOS</h5>
-                          </div>
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes" alt="Taxi">
-                        </div>
-
-                        <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
-                          <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">EJECUTIVOS</h5>
-                          </div>
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes" alt="Taxi">
-                        </div>
-
-                        <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
-                          <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">EJECUTIVOS</h5>
-                          </div>
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes" alt="Taxi">
-                        </div>
-                      </div><!-- hasta aca 2DA FILA CARDS FLOTA-->
-
-                    </div><!-- hasta aca PRINCIPAL CARDS FLOTA -->
-
-                </div> <!-- hasta aca IMAGEN FLOTA -->  
-              </div><!-- hasta aca COL-8 FLOTA -->
             </div>
-            <!-------------------------------FIN SECCION FLOTA---------------------------------------->
+          </div>
+        </nav>
+      </div><!-- hasta aca COL-8 NAV -->
+          <!-------------------------------BOTONERA IDIOMAS---------------------------------------->
+    <div>
+      <div class="btn-group position-absolute top-0 end-0 m-2 d-none d-lg-flex" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn azulBackOpaco aHover amarilloText dropdown-toggle fs-5" data-bs-toggle="dropdown" aria-expanded="false">
+            Lenguage
+          </button>
+          <ul class="dropdown-menu azulBackOpaco">
+            <li><a class="dropdown-item text-center aHover amarilloText fs-5" href="#">Español <img style="max-height: 1.3em;" src="imagenes/iconoArgentina.png" class="img-fluid"></a></li>
+            <li><a class="dropdown-item text-center aHover amarilloText fs-5" href="#">English <img style="max-height: 1.3em;" src="imagenes/iconoEnglish.png" class="img-fluid"></a></li>
+            <li><a class="dropdown-item text-center aHover amarilloText fs-5" href="#">Português <img style="max-height: 1.3em;" src="imagenes/iconoBrazil.png" class="img-fluid"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------FIN BOTONERA IDIOMAS---------------------------------------->
 
-            <!-------------------------------SECCION CONTACTO---------------------------------------->
-            <div class="row">
-              <div class="col-2">
+
+    </div>
+    <!-------------------------------FIN BARRA BOTONERA---------------------------------------->
+
+    <!-------------------------------SECCION INICIO---------------------------------------->
+    <div class="row" style="padding-top: 64px;">
+
+      <div class="col-2 d-none d-lg-flex">
+      </div>
+
+      <div class="col-lg-8 col" id="Inicio">
+        <div id="carouselInicio" class="carousel slide my-1" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner bordes">
+            <div class="carousel-item active">
+              <img
+                src="https://static3.depositphotos.com/1006458/211/i/450/depositphotos_2111331-stock-photo-fast-taxi.jpg"
+                class="d-block w-100" alt="TaxiCarousel1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Probando commit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.rosarionoticias.gob.ar/uploads/fotos/p1910elm9i14cdnj1kl1b6b1u364.jpg"
+                class="d-block w-100" alt="TaxiCarousel2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.tycsports.com/files/2021/05/07/278736/futbol-y-taxis_862x485_wmk.jpg"
+                class="d-block w-100" alt="TaxiCarousel3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div><!-- hasta aca COL-8 INICIO -->
+
+    </div>
+    <!-------------------------------FIN SECCION INICIO---------------------------------------->
+
+    <!-------------------------------SECCION SERVICIOS---------------------------------------->
+    <div class="row">
+      <div class="col-2 d-none d-lg-flex">
+      </div>
+
+      <div class="col-lg-8 col" id="Servicios">
+        <div class="azulBack amarilloText bordes p-4">
+          <div class="p-4">
+            <h2 style="text-align: center;">SERVICIOS</h2>
+          </div>
+          <div class="p-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quas fugit animi optio? Minus quia
+              asperiores laborum quaerat? Sit sapiente vero ab deserunt optio! Consectetur aliquid blanditiis ipsa
+              beatae perferendis.</p>
+          </div>
+        </div>
+
+      </div><!-- hasta aca COL-8 SERVICIOS -->
+    </div>
+    <!-------------------------------FIN SECCION SERVICIOS---------------------------------------->
+
+    <!-------------------------------SECCION FLOTA---------------------------------------->
+    <div class="row">
+
+      <div class="col-2 d-none d-lg-flex">
+      </div>
+
+      <div class="col-lg-8 col my-1" id="Flota">
+
+        <div class="p-4 bordes" style="background: url(imagenes/parandoTaxi.png) center/cover;">
+
+          <div class="m-4 p-2 azulText">
+            <h2 style="text-align: center;">FLOTA</h2>
+          </div>
+
+          <div class="d-block">
+
+            <div class="d-flex m-2 p-2" style="justify-content: center; align-items: center;">
+
+              <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">EJECUTIVOS</h5>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes"
+                  alt="Taxi">
               </div>
 
-              <div class="col-8" id="Contacto">
-
-                <div class="p-4 bordes azulBack" >
-
-                  <div class="p-4 amarilloText">
-                    <h2 style="text-align: center;">CONTACTO</h2>
-                  </div>
-                  
-                  <div class="d-flex">
-                    <div class="m-2 p-4 col-5"> <!--FORM CONTACTO-->
-
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                      </div>
-
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-                        <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                      </div>
-
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Teléfono</span>
-                        <input type="tel" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                      </div>
-
-                      <div class="input-group mb-3">
-                        <span class="input-group-text">Descripción</span>
-                        <textarea class="form-control" id="descpripcionTexTarea" rows="3"></textarea>
-                      </div>
-
-                      <div class="m-2">
-                        <button type="button" class="btn btn-success">Enviar</button>
-                      </div>
-
-                    </div><!-- hasta aca FORM CONTACTO -->
-
-                    <div class="ms-auto me-auto d-flex">
-                      <div class="d-flex" style="align-items: center; justify-content: center;">
-                        <a class="h2"  href="https://wa.me/" target="_blank"><!--PONER NUMERO DE TELEFONO-->
-                          <img class="m-1 img-fluid"  src="/imagenes/WhatsAppButtonGreenSmall.png"  alt="IconoWhatsApp">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+              <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">EJECUTIVOS</h5>
                 </div>
-              </div><!-- hasta aca COL-8 CONTACTO -->
-
-            </div>
-            <!-------------------------------FIN SECCION CONTACTO---------------------------------------->
-
-            <!-------------------------------SECCION NOSOTROS---------------------------------------->
-            <div class="row">
-              <div class="col-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes"
+                  alt="Taxi">
               </div>
 
-              <div class="col-8" id="Nosotros">
-                <div class="amarilloBack azulText bordes my-1 p-4">
-                  <div class="p-4">
-                    <h2 style="text-align: center;">NOSOTROS</h2>
-                  </div>
-                    <div class="p-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quas fugit animi optio? Minus quia asperiores laborum quaerat? Sit sapiente vero ab deserunt optio! Consectetur aliquid blanditiis ipsa beatae perferendis.</p>
-                    </div>
+              <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">EJECUTIVOS</h5>
                 </div>
-                  
-              </div><!-- hasta aca COL-8 NOSOTROS -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes"
+                  alt="Taxi">
+              </div>
+            </div><!-- hasta aca 1RA FILA CARDS FLOTA-->
+
+            <div class="d-flex m-2 p-2" style="justify-content: center; align-items: center;">
+
+              <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">EJECUTIVOS</h5>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes"
+                  alt="Taxi">
+              </div>
+
+              <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">EJECUTIVOS</h5>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes"
+                  alt="Taxi">
+              </div>
+
+              <div class="card p-2 m-2 amarilloBackOpaco" style="width: 18rem;  border-color: #00008B;">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">EJECUTIVOS</h5>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg" class="card-img-top bordes"
+                  alt="Taxi">
+              </div>
+            </div><!-- hasta aca 2DA FILA CARDS FLOTA-->
+
+          </div><!-- hasta aca PRINCIPAL CARDS FLOTA -->
+
+        </div> <!-- hasta aca IMAGEN FLOTA -->
+      </div><!-- hasta aca COL-8 FLOTA -->
+    </div>
+    <!-------------------------------FIN SECCION FLOTA---------------------------------------->
+
+    <!-------------------------------SECCION CONTACTO---------------------------------------->
+    <div class="row">
+      <div class="col-2 d-none d-lg-flex">
+      </div>
+
+      <div class="col-lg-8 col" id="Contacto">
+
+        <div class="p-4 bordes azulBack">
+
+          <div class="p-4 amarilloText">
+            <h2 style="text-align: center;">CONTACTO</h2>
           </div>
-          <!-------------------------------FIN SECCION NOSOTROS---------------------------------------->
 
-          <!-------------------------------FOOTER---------------------------------------->
-          <div class="row">
-            <div class="col-2">
+          <div class="d-flex">
+            <div class="m-2 p-4 col-5"> <!--FORM CONTACTO-->
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                <input type="email" class="form-control" aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Teléfono</span>
+                <input type="tel" class="form-control" aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text">Descripción</span>
+                <textarea class="form-control" id="descpripcionTexTarea"
+                  rows="3">Hola! Quería tarifar mi viaje, necesito..</textarea>
+              </div>
+
+              <div class="m-2">
+                <button type="button" class="btn btn-success">Enviar</button>
+              </div>
+
+            </div><!-- hasta aca FORM CONTACTO -->
+
+            <div class="ms-auto me-auto d-flex">
+              <div class="d-flex" style="align-items: center; justify-content: center;">
+                <a class="h2" href="https://wa.me/" target="_blank"><!--PONER NUMERO DE TELEFONO-->
+                  <img class="m-1 img-fluid" src="/imagenes/WhatsAppButtonGreenSmall.png" alt="IconoWhatsApp">
+                </a>
+              </div>
             </div>
-
-            <div class="col-8">
-
-            </div>
-
           </div>
-          <!-------------------------------FIN FOOTER---------------------------------------->
+        </div>
+      </div><!-- hasta aca COL-8 CONTACTO -->
 
-          <!-------------------------------BOTON WHATSAPP---------------------------------------->
-          <div class="ms-auto me-auto d-flex">
-            <div class="d-flex" style="align-items:end; justify-content:end;">
-              <a class="h2"  href="https://wa.me/" target="_blank"><!--PONER NUMERO DE TELEFONO-->
-                <img class="m-1 img-fluid whatsappButton"  src="imagenes/whatsapp-icon-free-png.png"  alt="IconoWhatsApp">
-              </a>
-            </div>
+    </div>
+    <!-------------------------------FIN SECCION CONTACTO---------------------------------------->
+
+    <!-------------------------------SECCION NOSOTROS---------------------------------------->
+    <div class="row">
+      <div class="col-2 d-none d-lg-flex">
+      </div>
+
+      <div class="col-lg-8 col" id="Nosotros">
+        <div class="amarilloBack azulText bordes my-1 p-4">
+          <div class="p-4">
+            <h2 style="text-align: center;">NOSOTROS</h2>
           </div>
-          <!-------------------------------FIN BOTON WHATSAPP---------------------------------------->
+          <div class="p-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quas fugit animi optio? Minus quia
+              asperiores laborum quaerat? Sit sapiente vero ab deserunt optio! Consectetur aliquid blanditiis ipsa
+              beatae perferendis.</p>
+          </div>
+        </div>
 
-        </div><!-- hasta aca CONTAINER PRINCIPAL -->
+      </div><!-- hasta aca COL-8 NOSOTROS -->
+    </div>
+    <!-------------------------------FIN SECCION NOSOTROS---------------------------------------->
 
-    </body>
+    <!-------------------------------FOOTER---------------------------------------->
+    <div class="row">
+      <div class="col-2">
+      </div>
+
+      <div class="col-8">
+
+      </div>
+
+    </div>
+    <!-------------------------------FIN FOOTER---------------------------------------->
+
+    <!-------------------------------BOTON WHATSAPP---------------------------------------->
+    <div class="ms-auto me-auto d-flex">
+      <div class="d-flex" style="align-items:end; justify-content:end;">
+        <a class="h2" href="https://wa.me/" target="_blank"><!--PONER NUMERO DE TELEFONO-->
+          <img class="m-1 img-fluid whatsappButton" src="imagenes/whatsapp-icon-free-png.png" alt="IconoWhatsApp">
+        </a>
+      </div>
+    </div>
+    <!-------------------------------FIN BOTON WHATSAPP---------------------------------------->
+
+  </div><!-- hasta aca CONTAINER PRINCIPAL -->
+
+</body>
 
 
 </html>
